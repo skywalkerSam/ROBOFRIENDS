@@ -24,7 +24,7 @@
 
 To create a react app
 
-.. code:: bash
+
 
     npx create-react-app hello-react  
 
