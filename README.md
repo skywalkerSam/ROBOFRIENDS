@@ -12,7 +12,7 @@
 
 - Building the Project for Production for the first time Using `npm run build`🙂
 
-- Updating the project to the latest version.   (`package.json`)
+- Updating the project to the latest version of React.   (`package.json`)
 
 - Using `ErrorBoundry.js` Component to catch errors in the application.
 
@@ -22,22 +22,65 @@
 
 ## Basic NPM Commands
 
-- `npx create-react-app <app_name>`   to create a react app.
+To create a react app
 
-- `npm install`                      to install all the dependencies.
+.. code:: bash
 
-- `npm start`                        to start the project.
+    npx create-react-app hello-react  
 
-- `npm i -g live-server`             to install live-server globally.
+To install the dependencies
 
-- `npm i tachyons`                   to install tachyons.      (i = install)
+.. code:: bash
 
-- `npm run build`                    to build the project for production.
+    npm install                      
 
-- `npm audit fix`                    to fix the vulnerabilities.
+To start the development server
 
-- `npm update`                       to update the packages.   (minor and patch updates)
+.. code:: bash
 
-- `npm audit`                        to check the vulnerabilities.
+    npm start
 
-- `npm audit fix --force`            to fix the vulnerabilities forcefully.     (not recommended!)
+To install live-server package globally
+
+.. code:: bash
+
+    npm install -g live-server
+
+To install tachyons package (i = install)
+
+.. code:: bash
+
+    npm i tachyons
+
+To build the project 
+
+.. code:: bash
+
+    npm run build
+
+
+To update the packages
+
+.. code:: bash
+
+    npm update
+
+To check for vulnerabilities
+
+.. code:: bash
+
+    npm audit
+
+To fix the vulnerabilities
+
+.. code:: bash
+
+    npm audit fix
+
+To fix the vulnerabilities forcefully (not recommended!)
+
+.. code:: bash
+
+    npm audit fix --force
+    
+To deploy the build to [GitHub Pages](https://create-react-app.dev/docs/deployment/#github-pages-https-pagesgithubcom).
