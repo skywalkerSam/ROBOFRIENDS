@@ -24,63 +24,42 @@
 
 To create a react app
 
-.. code:: bash
-
     npx create-react-app hello-react  
 
 To install the dependencies
-
-.. code:: bash
 
     npm install                      
 
 To start the development server
 
-.. code:: bash
-
     npm start
 
 To install live-server package globally
-
-.. code:: bash
 
     npm install -g live-server
 
 To install tachyons package (i = install)
 
-.. code:: bash
-
     npm i tachyons
 
-To build the project 
-
-.. code:: bash
+To build the project for production
 
     npm run build
 
-
 To update the packages
-
-.. code:: bash
 
     npm update
 
 To check for vulnerabilities
 
-.. code:: bash
-
     npm audit
 
 To fix the vulnerabilities
-
-.. code:: bash
 
     npm audit fix
 
 To fix the vulnerabilities forcefully (not recommended!)
 
-.. code:: bash
-
     npm audit fix --force
-    
+
 To deploy the build to [GitHub Pages](https://create-react-app.dev/docs/deployment/#github-pages-https-pagesgithubcom).
