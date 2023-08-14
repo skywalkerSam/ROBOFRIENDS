@@ -1,5 +1,7 @@
 # Getting Started with React - ROBOFRIENDS
 
+A simple Robofriends application made with React. This project is a part of my Web Development Bootcamp by ZTM.
+
 - Introduction to State, Props, Functional Components & Class Components.
 
 - Introduction to Components & Component Lifecycle.
